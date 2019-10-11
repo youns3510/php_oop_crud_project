@@ -7,7 +7,7 @@
   <title>Document</title>
 </head>
 <body>
-<a href="/products/create.php">Create Products</a>
+<a href="/products/">All Products</a>
 
 </body>
 </html>
