@@ -12,7 +12,7 @@ echo "</form>";
  
 // create product button
 echo "<div class='right-button-margin'>";
-    echo "<a href='create_product.php' class='btn btn-primary pull-right'>";
+    echo "<a href='create.php' class='btn btn-primary pull-right'>";
         echo "<span class='glyphicon glyphicon-plus'></span> Create Product";
     echo "</a>";
 echo "</div>";
@@ -51,7 +51,7 @@ if($total_rows>0){
                     echo "</a>";
  
                     // edit product button
-                    echo "<a href='update_product.php?id={$id}' class='btn btn-info left-margin'>";
+                    echo "<a href='update.php?id={$id}' class='btn btn-info left-margin'>";
                         echo "<span class='glyphicon glyphicon-edit'></span> Edit";
                     echo "</a>";
  
