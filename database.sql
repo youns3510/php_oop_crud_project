@@ -29,8 +29,7 @@ INSERT INTO `products` (`id`, `name`, `description`, `price`, `category_id`,`ima
 (27, 'Bag', 'Awesome bag for you!', 999, 1, 'image.png', '2014-12-04 21:11:36', '2014-12-03 22:11:36'),
 (28, 'Wallet', 'You can absolutely use this one!', 799, 1, 'image.png', '2014-12-04 21:12:03', '2014-12-03 22:12:03'),
 (30, 'Wal-mart Shirt', '', 555, 2, 'image.png', '2014-12-13 00:52:29', '2014-12-12 01:52:29'),
-(31, 'Amanda Waller Shirt', 'New awesome shirt!', 333, 1, 'image.png', '2014-12-13 00:52:54', '2014-12-12 01:52:54'),
-(32, 'Washing Machine Model PTRR', 'Some new product.', 999, 1, 'image.png', '2015-01-08 22:44:15', '2015-01-07 23:44:15');
+(31, 'Amanda Waller Shirt', 'New awesome shirt!', 333, 1, 'image.png', '2014-12-13 00:52:54', '2014-12-12 01:52:54');
 
 -- Table structure for table `categories`
 CREATE TABLE IF NOT EXISTS `categories` (
